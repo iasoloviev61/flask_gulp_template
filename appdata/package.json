@@ -1,0 +1,34 @@
+{
+  "name": "flask_gulp",
+  "version": "1.0.0",
+  "author": "Soloviev Igor",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-cheerio": "*",
+    "gulp-concat": "*",
+    "gulp-concat-css": "*",
+    "gulp-csso": "*",
+    "gulp-eslint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-notify": "*",
+    "gulp-pug": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-svg-sprite": "*",
+    "gulp-svgmin": "*",
+    "gulp-uglify": "*",
+    "gulp.spritesmith": "*",
+    "gulp4": "^4.0.3",
+    "merge-stream": "^1.0.1",
+    "require-tree": "*",
+    "rimraf": "*",
+    "svg4everybody": "*"
+  },
+  "dependencies": {
+    "normalize.css": "*"
+  }
+}
