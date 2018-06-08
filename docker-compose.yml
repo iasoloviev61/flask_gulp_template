@@ -1,8 +1,14 @@
-frontend:
+version: "2"
+services:
+  frontend:
     build: ./frontend
     ports:
-         - "3000:3000"
-    environment:
-        ENV: DEV
+     - "3000:3000"
+    volumes:
+     - ./appdata:/appdata
+  backend:
+    build: ./backend
+    ports:
+     - "5000:5000"
     volumes:
          - ./appdata:/appdata
