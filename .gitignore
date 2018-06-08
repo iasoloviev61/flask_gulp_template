@@ -32,3 +32,4 @@ Thumbs.db
 .svn
 appdata/build
 appdata/node_modules
+appdata/package-lock.json
