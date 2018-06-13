@@ -26,12 +26,12 @@ $.gulp.task('default', $.gulp.series(
     'sprite:svg',
     $.gulp.parallel(
         'sass',
-        'pug',
+        // 'pug',
         'js:foundation',
         'js:process',
         'copy:image',
         'css:foundation',
-        'sprite:png',
+        'copy:templates',
         'copy:files',
         'copy:fonts'),
     $.gulp.parallel(

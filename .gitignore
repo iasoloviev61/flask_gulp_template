@@ -30,6 +30,8 @@ Thumbs.db
 .hg
 .idea
 .svn
-appdata/build
+appdata/app/build
 appdata/node_modules
 appdata/package-lock.json
+appdata/__pycache__
+appdata/app/__pycache__/
