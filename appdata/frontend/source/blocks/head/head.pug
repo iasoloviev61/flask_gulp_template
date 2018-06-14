@@ -1,0 +1,17 @@
+mixin head(data)
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        block title
+            title main title
+        meta(name="description" content="mother shop")
+        meta(name="keywords" content="shop")
+        meta(name="author", content="Igor Soloviev")
+        //link(href="/favicon.ico" rel="shortcut icon" type="image/x-icon")
+        //link(href="/favicon.ico" rel="icon" type="image/x-icon")
+        //link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
+        //link(rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32")
+        //link(rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16")
+        link(rel="stylesheet" href=url_for('static', filename = 'css/foundation.css'))
+        link(rel="stylesheet" href=url_for('static', filename = 'css/main.css'))

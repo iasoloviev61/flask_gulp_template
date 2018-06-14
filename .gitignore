@@ -31,7 +31,7 @@ Thumbs.db
 .idea
 .svn
 appdata/app/build
-appdata/node_modules
-appdata/package-lock.json
+appdata/frontend/node_modules
+appdata/frontend/package-lock.json
 appdata/__pycache__
 appdata/app/__pycache__/
