@@ -1,0 +1,9 @@
+mixin register(data)
+    //register
+    div
+        form(action="" method="post")
+            #{myform.hidden_tag()}
+                #{myform.email(size = 64, placeholder = "Электронная почта")}
+                #{myform.password(placeholder = "Пароль")}
+                #{myform.password2(placeholder = "Пароль Ещё раз")}
+                #{myform.submit(value = "Создать аккаунт")}

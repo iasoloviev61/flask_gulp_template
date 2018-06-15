@@ -30,6 +30,7 @@ Thumbs.db
 .hg
 .idea
 .svn
+appdata/app.db
 appdata/app/build
 appdata/frontend/node_modules
 appdata/frontend/package-lock.json

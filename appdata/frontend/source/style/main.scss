@@ -1,4 +1,11 @@
+// setups
+@import "./_misc/common";
+@import "./_misc/mixins";
+@import "./_misc/sprite";
+
 @import "../blocks/header/header";
 @import "../blocks/main/main";
 @import "../blocks/footer/footer";
-@import "_blocks/index";
+@import "../blocks/auth/auth";
+@import "../blocks/errors/errors";
+@import "../blocks/email/email";
