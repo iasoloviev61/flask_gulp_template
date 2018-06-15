@@ -29,7 +29,6 @@
     "svg4everybody": "*"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
     "normalize.css": "*"
   }
 }

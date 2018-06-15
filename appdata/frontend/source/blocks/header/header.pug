@@ -1,14 +1,8 @@
 mixin header(data)
-    header.header
-        .header-content
-            .logo
-                a(class="logo__link", href="#") Logo
-            nav.nav
-                ul.nav-list
-                    li.nav__item
-                        a.nav__link(href=url_for('auth.login')) Login
-                    li.nav__item
-                        a.nav__link(href=url_for('auth.register')) Register
-                    li.nav__item
-                        a.nav__link(href="#") Logout
-
+    header
+        div
+            a.login(href="#") login
+        div.logo
+            p my logotype
+        div
+            button

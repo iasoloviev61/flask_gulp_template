@@ -5,10 +5,6 @@ html(lang="ru-RU")
     include blocks/head/head.pug
     +head()
     body
-        .wrapper
-            .container
-                .main-content
-                    +header()
-                    .content
-                        block content
-                    +footer()
+        +header()
+        block content
+        +footer()
